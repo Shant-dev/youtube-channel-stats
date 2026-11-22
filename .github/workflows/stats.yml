@@ -2,7 +2,7 @@ name: Refresh YouTube stats
 on:
   workflow_dispatch:
   schedule:
-    - cron: '8,23,38,58 * * * *'
+    - cron: '1,6,10,14,18,22,26,30,34,38,42,46,50,54,58 * * * *'
 permissions:
   contents: read
 concurrency:
